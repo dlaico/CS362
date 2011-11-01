@@ -99,7 +99,7 @@ namespace DTR.TicketEvolution
             myhmacsha256.ComputeHash(bRequest);
             string X_Signature = Convert.ToBase64String(myhmacsha256.Hash);
 
-            HttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://" + api);
+            HttpWebRequest request = (HttpWebRequest)WebRequest.Create("https://" + api);
             request.Method = "GET";
             request.Accept = "application/vnd.ticketevolution.api+json; version=8";
             request.Headers.Add("X-Signature", X_Signature);
