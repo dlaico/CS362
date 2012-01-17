@@ -895,8 +895,8 @@ namespace DTR.TicketEvolution
 
             for (double i = 0; i < pages; i++)
             {
-                //Response = GetAPIResponseTest("shipments?per_page=" + per_page.ToString() + "?" + "page=" + (i + 1).ToString());
-                Response = GetAPIResponse("shipments?per_page=" + per_page.ToString() + "?" + "page=" + (i + 1).ToString());
+                Response = GetAPIResponseTest("shipments?per_page=" + per_page.ToString() + "?" + "page=" + (i + 1).ToString());
+                //Response = GetAPIResponse("shipments?per_page=" + per_page.ToString() + "?" + "page=" + (i + 1).ToString());
                 Response = Response.Replace("\"event\":", "event_:");
                 page = JObject.Parse(Response);
                 List<JToken> items = page["shipments"].Children().ToList();
