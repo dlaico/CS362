@@ -30,15 +30,15 @@ namespace CS363Lab.Controllers
         [HttpPost]
         public ActionResult Create(Store store)
         {
-            
             aspnet_User user = data.GetCurrentUser();
             data.AddStore(store, user);
             return View("CreateSuccess", store);
         }
 
         [Authorize]
-        public ActionResult AddProducts()
+        public ActionResult AddProducts(int id)
         {
+
             return View();
         }
 
@@ -46,7 +46,6 @@ namespace CS363Lab.Controllers
         [HttpPost]
         public ActionResult AddProducts(Product product)
         {
-
             return View();
         }
 

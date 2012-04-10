@@ -72,6 +72,7 @@
     </Compile>
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Models\DataRepository.cs" />
+    <Compile Include="Models\StoreModels.cs" />
     <Compile Include="Models\WebStoreData.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

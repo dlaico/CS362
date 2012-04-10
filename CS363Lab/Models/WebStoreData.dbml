@@ -22,6 +22,7 @@
       <Column Name="StoreZip" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
       <Column Name="StorePhone" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
       <Column Name="StoreEmail" Type="System.String" DbType="NVarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="UserID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
       <Association Name="Store_Store" Member="Store2" ThisKey="StoreID" OtherKey="StoreID" Type="Store" Cardinality="One" />
       <Association Name="Store_Order" Member="Orders" ThisKey="StoreID" OtherKey="StoreID" Type="Order" />
       <Association Name="Store_Product" Member="Products" ThisKey="StoreID" OtherKey="StoreID" Type="Product" />

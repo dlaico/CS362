@@ -21,6 +21,7 @@ namespace CS363Lab.Models
 
         public int AddStore(Store store, aspnet_User user)
         {
+            store.UserID = user.UserId;
             webstoredata.Stores.InsertOnSubmit(store);
             webstoredata.SubmitChanges();
             return store.StoreID;

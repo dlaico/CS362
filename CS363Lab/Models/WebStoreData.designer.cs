@@ -518,6 +518,8 @@ namespace CS363Lab.Models
 		
 		private string _StoreEmail;
 		
+		private System.Guid _UserID;
+		
 		private EntityRef<Store> _Store2;
 		
 		private EntitySet<Order> _Orders;
@@ -546,6 +548,8 @@ namespace CS363Lab.Models
     partial void OnStorePhoneChanged();
     partial void OnStoreEmailChanging(string value);
     partial void OnStoreEmailChanged();
+    partial void OnUserIDChanging(System.Guid value);
+    partial void OnUserIDChanged();
     #endregion
 		
 		public Store()
@@ -717,6 +721,26 @@ namespace CS363Lab.Models
 					this._StoreEmail = value;
 					this.SendPropertyChanged("StoreEmail");
 					this.OnStoreEmailChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_UserID", DbType="UniqueIdentifier NOT NULL")]
+		public System.Guid UserID
+		{
+			get
+			{
+				return this._UserID;
+			}
+			set
+			{
+				if ((this._UserID != value))
+				{
+					this.OnUserIDChanging(value);
+					this.SendPropertyChanging();
+					this._UserID = value;
+					this.SendPropertyChanged("UserID");
+					this.OnUserIDChanged();
 				}
 			}
 		}

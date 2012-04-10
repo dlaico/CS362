@@ -36,4 +36,4 @@
         <td>@Model.StoreEmail</td>
     </tr>
 </table>
-<p>You should now @Html.ActionLink("Add Products", "AddProducts", "Stores") for your customers to buy!</p>
+<p>You should now @Html.ActionLink("Add Products", "AddProducts/" + Model.StoreID.ToString(), "Stores") for your customers to buy!</p>
