@@ -1,0 +1,13 @@
+﻿@{
+    ViewBag.Title = "WebStore - Customers and Stores interact online!";
+}
+
+<h2>@ViewBag.Message</h2>
+<p>
+    Welcome to the WebStore - where customers and stores can interact online!.
+</p>
+<p>Please select an action below:</p>
+<ul>
+    <li>@Html.ActionLink("View Stores", "Index", "Stores")</li>
+    <li>@Html.ActionLink("Create a Store", "Create", "Stores")</li>
+</ul>

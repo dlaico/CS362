@@ -1,0 +1,29 @@
+﻿@model CS363Lab.Models.Product
+
+@{
+    ViewBag.Title = "AddProducts";
+}
+
+<h2>Add a Product</h2>
+<p>Please enter your product details here:</p>
+<form action="/Stores/AddProducts" method=post>
+<table>
+    <tr>
+        <td>Product Name</td>
+        <td>@Html.TextBoxFor(x => x.ProductName)</td>
+    </tr>
+    <tr>
+        <td>Product Description</td>
+        <td>@Html.TextBoxFor(x => x.ProductDescription)</td>
+    </tr>
+    <tr>
+        <td>Quantity</td>
+        <td>@Html.TextBoxFor(x => x.ProductQuantity)</td>
+    </tr>
+    <tr>
+        <td>Price</td>
+        <td>@Html.TextBoxFor(x => x.ProductPrice)</td>
+    </tr>
+</table>
+<input type="submit" value="Add Product" />
+</form>

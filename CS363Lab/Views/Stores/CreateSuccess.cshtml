@@ -1,0 +1,39 @@
+﻿@model CS363Lab.Models.Store
+
+@{
+    ViewBag.Title = "CreateSuccess";
+}
+
+<h2>Store Created Successfully!</h2>
+<p>Congratulations! You've created your store!  Here are your store details:</p>
+<table>
+    <tr>
+        <td>Store Name</td>
+        <td>@Model.StoreName</td>
+    </tr>
+    <tr>
+        <td>Store Address</td>
+        <td>@Model.StoreAddress</td>
+    </tr>
+    <tr>
+        <td>Store City</td>
+        <td>@Model.StoreCity</td>
+    </tr>
+    <tr>
+        <td>Store State</td>
+        <td>@Model.StoreState</td>
+    </tr>
+    <tr>
+        <td>Store Zip</td>
+        <td>@Model.StoreZip</td>
+    </tr>
+    <tr>
+        <td>Store Phone</td>
+        <td>@Model.StorePhone</td>
+    </tr>
+    <tr>
+        <td>Store Email Address</td>
+        <td>@Model.StoreEmail</td>
+    </tr>
+</table>
+<p>You should now @Html.ActionLink("Add Products", "AddProducts", "Stores") for your customers to buy!</p>

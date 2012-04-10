@@ -1,0 +1,14 @@
+﻿@model IQueryable<CS363Lab.Models.Store>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>List of Current Stores</h2>
+<p>Click a store to view their products.</p>
+<ul>
+@foreach (var s in Model)
+{
+    <li>@s.StoreName</li>
+}
+</ul>
