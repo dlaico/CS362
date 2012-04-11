@@ -9,6 +9,6 @@
 <ul>
 @foreach (var s in Model)
 {
-    <li>@s.StoreName</li>
+    <li>@Html.ActionLink(s.StoreName, "Index/" + s.StoreID.ToString(), "Products")</li>
 }
 </ul>

@@ -1,0 +1,9 @@
+﻿@model CS363Lab.Models.Product
+
+@{
+    ViewBag.Title = "Add Product Success!";
+}
+
+<h2>You've added a product!</h2>
+
+<p>You've successfully added the product, now you can @Html.ActionLink("Add Another Product", "AddProducts/" + Model.StoreID, "Stores")</p>

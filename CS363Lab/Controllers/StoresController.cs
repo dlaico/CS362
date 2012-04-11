@@ -10,6 +10,7 @@ namespace CS363Lab.Controllers
     public class StoresController : Controller
     {
         private DataRepository data = new DataRepository();
+        private StoreModels storemodel = new StoreModels();
         //
         // GET: /Store/
 
@@ -38,15 +39,19 @@ namespace CS363Lab.Controllers
         [Authorize]
         public ActionResult AddProducts(int id)
         {
-
-            return View();
+            if (storemodel.IsValidStore(id, data.GetCurrentUser())) return View(new Product { StoreID = id });
+            else return View("ProductAddError");
         }
 
         [Authorize]
         [HttpPost]
         public ActionResult AddProducts(Product product)
         {
-            return View();
+            if (storemodel.IsValidStore(product.StoreID, data.GetCurrentUser())) {
+                data.AddProduct(product);
+                return View("AddProductSuccess", product);
+            }
+            else return View("ProductAddError");
         }
 
     }
