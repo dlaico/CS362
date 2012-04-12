@@ -172,6 +172,7 @@
     <Content Include="Views\Stores\AddProductSuccess.cshtml" />
     <Content Include="Views\Products\Index.cshtml" />
     <Content Include="Views\Products\NoProducts.cshtml" />
+    <Content Include="Views\Products\StoreOwnerIndex.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
