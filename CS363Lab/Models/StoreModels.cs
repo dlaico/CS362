@@ -10,10 +10,10 @@ namespace CS363Lab.Models
 
         private WebStoreDataDataContext webdata = new WebStoreDataDataContext();
 
-        //TODO need to implement
         public bool IsValidStore(int storeid, aspnet_User user)
         {
-            if(webdata.Stores.Any( x => x.StoreID == storeid)) return true;
+            var store = GetStore(storeid);
+            if (store.UserID == user.UserId) return true;
             else return false;
         }
 

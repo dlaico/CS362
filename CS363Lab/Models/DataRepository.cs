@@ -12,11 +12,18 @@ namespace CS363Lab.Models
 
         public aspnet_User GetCurrentUser()
         {
-            MembershipUser currentUser = Membership.GetUser();
-            var user = from users in webstoredata.aspnet_Users
-                               where users.UserName.Equals(currentUser.UserName)
-                               select users;
-            return (aspnet_User)user.First();
+            try
+            {
+                MembershipUser currentUser = Membership.GetUser();
+                var user = from users in webstoredata.aspnet_Users
+                           where users.UserName.Equals(currentUser.UserName)
+                           select users;
+                return (aspnet_User)user.First();
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
         }
 
         public int AddStore(Store store, aspnet_User user)

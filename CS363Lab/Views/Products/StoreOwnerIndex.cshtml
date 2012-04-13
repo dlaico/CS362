@@ -1,9 +1,20 @@
-﻿@model CS363Lab.Models.Store
+﻿@model CS363Lab.Models.StoreViewModel
 
 @{
-    ViewBag.Title = Model.StoreName + " - Store Page";
+    ViewBag.Title = Model.store.StoreName + " - Store Page";
 }
 
-<h2>Welcome to Your Store: @Model.StoreName</h2>
+<h2>Welcome to Your Store</h2>
 
 <h3>Here you can view/edit your products as well as your store information.</h3>
+
+<p>A list of your current products (click to edit):</p>
+<ul>
+@foreach (var product in Model.products)
+{
+   <li>@Html.ActionLink(product.ProductName, "Edit/" + product.ProductID.ToString(), "Products")</li>
+}
+</ul>
+
+<p>If you'd like to add another product @Html.ActionLink("Click Here", "AddProducts/" + Model.store.StoreID.ToString(), "Stores")</p>
+

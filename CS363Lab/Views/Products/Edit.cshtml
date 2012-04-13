@@ -5,8 +5,9 @@
 }
 
 <h2>Add/Edit a Product</h2>
+<p>@Html.ActionLink("Go Back", "Index/" + Model.StoreID)</p>
 <p>Please enter your product details here:</p>
-<form action="/Stores/AddProducts" method=post>
+<form action="/Products/Edit/" method=post>
 <table>
     <tr>
         <td>Product Name</td>
@@ -25,6 +26,6 @@
         <td>@Html.TextBoxFor(x => x.ProductPrice)</td>
     </tr>
 </table>
-@Html.HiddenFor(x => x.StoreID)
-<input type="submit" value="Add Product" />
+@Html.HiddenFor(x => x.ProductID)
+<input type="submit" value="Add/Edit Product" />
 </form>
