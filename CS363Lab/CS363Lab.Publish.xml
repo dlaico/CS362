@@ -30,16 +30,15 @@
     <file relUrl="Views/Shared/_LogOnPartial.cshtml" publishTime="04/09/2012 17:39:30" />
     <file relUrl="Content/themes/base/jquery.ui.dialog.css" publishTime="04/09/2012 17:39:27" />
     <file relUrl="bin/CS363Lab.dll" publishTime="04/10/2012 18:18:36" />
-    <file relUrl="Content/themes/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png" publishTime="04/09/2012 17:39:27" />
     <file relUrl="Scripts/jquery-1.5.1.js" publishTime="04/09/2012 17:39:29" />
     <file relUrl="Content/themes/base/jquery.ui.core.css" publishTime="04/09/2012 17:39:26" />
     <file relUrl="bin/CS363Lab.pdb" publishTime="04/10/2012 18:18:36" />
     <file relUrl="Scripts/modernizr-1.7.min.js" publishTime="04/09/2012 17:39:29" />
     <file relUrl="Content/themes/base/images/ui-bg_glass_75_dadada_1x400.png" publishTime="04/09/2012 17:39:27" />
-    <file relUrl="Scripts/jquery.validate.unobtrusive.min.js" publishTime="04/09/2012 17:39:29" />
     <file relUrl="Content/themes/base/jquery.ui.base.css" publishTime="04/09/2012 17:39:26" />
     <file relUrl="Views/Shared/Error.cshtml" publishTime="04/09/2012 17:39:30" />
     <file relUrl="Content/themes/base/jquery.ui.datepicker.css" publishTime="04/09/2012 17:39:27" />
+    <file relUrl="Views/Home/Index.cshtml" publishTime="04/09/2012 17:39:30" />
     <file relUrl="Views/Stores/AddProducts.cshtml" publishTime="04/10/2012 17:55:18" />
     <file relUrl="Content/themes/base/jquery.ui.selectable.css" publishTime="04/09/2012 17:39:27" />
     <file relUrl="Content/themes/base/images/ui-icons_222222_256x240.png" publishTime="04/09/2012 17:39:27" />
@@ -72,8 +71,9 @@
     <file relUrl="Views/Products/Index.cshtml" publishTime="04/10/2012 18:19:11" />
     <file relUrl="Scripts/jquery.validate.js" publishTime="04/09/2012 17:39:29" />
     <file relUrl="Content/themes/base/images/ui-bg_flat_0_aaaaaa_40x100.png" publishTime="04/09/2012 17:39:27" />
-    <file relUrl="Views/Home/Index.cshtml" publishTime="04/09/2012 17:39:30" />
+    <file relUrl="Scripts/jquery.validate.unobtrusive.min.js" publishTime="04/09/2012 17:39:29" />
     <file relUrl="Content/themes/base/jquery.ui.tabs.css" publishTime="04/09/2012 17:39:27" />
+    <file relUrl="Content/themes/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png" publishTime="04/09/2012 17:39:27" />
     <file relUrl="Content/themes/base/jquery.ui.autocomplete.css" publishTime="04/09/2012 17:39:26" />
   </publishProfile>
   <publishProfile publishUrl="\\automation\wwwroot\GovHubTickets" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile2" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
@@ -87,7 +87,7 @@
     <file relUrl="Views/Account/LogOn.cshtml" publishTime="04/09/2012 17:39:30" />
     <file relUrl="bin/EntityFramework.xml" publishTime="04/09/2012 17:39:26" />
     <file relUrl="Scripts/MicrosoftMvcValidation.debug.js" publishTime="04/09/2012 17:39:29" />
-    <file relUrl="Content/themes/base/jquery.ui.button.css" publishTime="04/09/2012 17:39:26" />
+    <file relUrl="Views/Products/StoreOwnerIndex.cshtml" publishTime="04/12/2012 17:51:44" />
     <file relUrl="Views/Stores/Index.cshtml" publishTime="04/10/2012 18:11:10" />
     <file relUrl="Views/Stores/Create.cshtml" publishTime="04/09/2012 17:39:30" />
     <file relUrl="Web.config" publishTime="04/09/2012 17:39:28" />
@@ -106,16 +106,14 @@
     <file relUrl="Views/Shared/_LogOnPartial.cshtml" publishTime="04/09/2012 17:39:30" />
     <file relUrl="Content/themes/base/jquery.ui.dialog.css" publishTime="04/09/2012 17:39:27" />
     <file relUrl="bin/CS363Lab.dll" publishTime="04/12/2012 18:23:16" />
-    <file relUrl="Content/themes/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png" publishTime="04/09/2012 17:39:27" />
     <file relUrl="Scripts/jquery-1.5.1.js" publishTime="04/09/2012 17:39:29" />
     <file relUrl="Content/themes/base/jquery.ui.core.css" publishTime="04/09/2012 17:39:26" />
     <file relUrl="bin/CS363Lab.pdb" publishTime="04/12/2012 18:23:15" />
-    <file relUrl="Scripts/modernizr-1.7.min.js" publishTime="04/09/2012 17:39:29" />
     <file relUrl="Content/themes/base/images/ui-bg_glass_75_dadada_1x400.png" publishTime="04/09/2012 17:39:27" />
-    <file relUrl="Scripts/jquery.validate.unobtrusive.min.js" publishTime="04/09/2012 17:39:29" />
     <file relUrl="Content/themes/base/jquery.ui.base.css" publishTime="04/09/2012 17:39:26" />
     <file relUrl="Views/Shared/Error.cshtml" publishTime="04/09/2012 17:39:30" />
     <file relUrl="Content/themes/base/jquery.ui.datepicker.css" publishTime="04/09/2012 17:39:27" />
+    <file relUrl="Views/Home/Index.cshtml" publishTime="04/09/2012 17:39:30" />
     <file relUrl="Views/Stores/AddProducts.cshtml" publishTime="04/12/2012 17:45:09" />
     <file relUrl="Content/themes/base/jquery.ui.selectable.css" publishTime="04/09/2012 17:39:27" />
     <file relUrl="Content/themes/base/images/ui-icons_222222_256x240.png" publishTime="04/09/2012 17:39:27" />
@@ -126,6 +124,7 @@
     <file relUrl="Views/Products/Edit.cshtml" publishTime="04/12/2012 17:56:34" />
     <file relUrl="Views/Products/NoProducts.cshtml" publishTime="04/10/2012 18:18:35" />
     <file relUrl="Content/themes/base/images/ui-icons_454545_256x240.png" publishTime="04/09/2012 17:39:27" />
+    <file relUrl="Scripts/jquery.unobtrusive-ajax.js" publishTime="04/09/2012 17:39:28" />
     <file relUrl="Scripts/jquery.validate.min.js" publishTime="04/09/2012 17:39:29" />
     <file relUrl="Content/themes/base/images/ui-bg_glass_65_ffffff_1x400.png" publishTime="04/09/2012 17:39:27" />
     <file relUrl="Content/themes/base/jquery.ui.theme.css" publishTime="04/09/2012 17:39:27" />
@@ -135,13 +134,13 @@
     <file relUrl="Views/Shared/_Layout.cshtml" publishTime="04/09/2012 17:39:30" />
     <file relUrl="Views/Web.config" publishTime="04/09/2012 17:39:29" />
     <file relUrl="Content/Site.css" publishTime="04/12/2012 18:11:28" />
+    <file relUrl="Content/themes/base/jquery.ui.button.css" publishTime="04/09/2012 17:39:26" />
     <file relUrl="Scripts/MicrosoftMvcValidation.js" publishTime="04/09/2012 17:39:29" />
     <file relUrl="Content/themes/base/images/ui-icons_888888_256x240.png" publishTime="04/09/2012 17:39:27" />
-    <file relUrl="Views/Products/StoreOwnerIndex.cshtml" publishTime="04/12/2012 17:51:44" />
     <file relUrl="Views/_ViewStart.cshtml" publishTime="04/09/2012 17:39:29" />
     <file relUrl="Scripts/modernizr-1.7.js" publishTime="04/09/2012 17:39:29" />
     <file relUrl="Views/Stores/CreateSuccess.cshtml" publishTime="04/10/2012 16:25:46" />
-    <file relUrl="Scripts/jquery.unobtrusive-ajax.js" publishTime="04/09/2012 17:39:28" />
+    <file relUrl="Scripts/modernizr-1.7.min.js" publishTime="04/09/2012 17:39:29" />
     <file relUrl="Content/themes/base/jquery.ui.all.css" publishTime="04/09/2012 17:39:26" />
     <file relUrl="Scripts/MicrosoftAjax.debug.js" publishTime="04/09/2012 17:39:29" />
     <file relUrl="Scripts/jquery-1.5.1-vsdoc.js" publishTime="04/09/2012 17:39:29" />
@@ -150,8 +149,9 @@
     <file relUrl="Views/Products/Index.cshtml" publishTime="04/10/2012 18:19:11" />
     <file relUrl="Scripts/jquery.validate.js" publishTime="04/09/2012 17:39:29" />
     <file relUrl="Content/themes/base/images/ui-bg_flat_0_aaaaaa_40x100.png" publishTime="04/09/2012 17:39:27" />
-    <file relUrl="Views/Home/Index.cshtml" publishTime="04/09/2012 17:39:30" />
+    <file relUrl="Scripts/jquery.validate.unobtrusive.min.js" publishTime="04/09/2012 17:39:29" />
     <file relUrl="Content/themes/base/jquery.ui.tabs.css" publishTime="04/09/2012 17:39:27" />
+    <file relUrl="Content/themes/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png" publishTime="04/09/2012 17:39:27" />
     <file relUrl="Content/themes/base/jquery.ui.autocomplete.css" publishTime="04/09/2012 17:39:26" />
   </publishProfile>
 </publishData>

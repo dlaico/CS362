@@ -16,9 +16,7 @@ namespace CS363Lab.Controllers
 
         public ActionResult Index()
         {
-            DataRepository data = new DataRepository();
-            var stores = data.GetAllStores();
-            return View(stores);
+            return View(storemodel.GetAllStores());
         }
 
         [Authorize]

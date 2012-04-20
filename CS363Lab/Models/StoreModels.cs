@@ -33,6 +33,13 @@ namespace CS363Lab.Models
             return stores.First();
         }
 
+        public IQueryable<Store> GetAllStores()
+        {
+            var stores = from s in webdata.Stores
+                         select s;
+            return stores;
+        }
+
         public Store UpdateStore(Store store)
         {
             Store updatedStore = GetStore(store.StoreID);
