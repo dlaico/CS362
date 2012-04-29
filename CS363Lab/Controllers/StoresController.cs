@@ -35,6 +35,22 @@ namespace CS363Lab.Controllers
         }
 
         [Authorize]
+        public ActionResult Update(int id)
+        {
+            Store store = storemodel.GetStore(id);
+            return View(store);
+        }
+
+        [HttpPost]
+        [Authorize]
+        public ActionResult Update(Store store)
+        {
+            storemodel.UpdateStore(store);
+            return View(store);
+        }
+
+
+        [Authorize]
         public ActionResult AddProducts(int id)
         {
             if (storemodel.IsValidStore(id, data.GetCurrentUser())) return View(new Product { StoreID = id });

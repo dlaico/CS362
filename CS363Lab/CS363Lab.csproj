@@ -184,6 +184,7 @@
     <Content Include="Views\Products\NoProducts.cshtml" />
     <Content Include="Views\Products\StoreOwnerIndex.cshtml" />
     <Content Include="Views\Products\Edit.cshtml" />
+    <Content Include="Views\Stores\Update.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
@@ -212,8 +213,9 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>2842</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>
-          </IISUrl>
+          <IISUrl>http://localhost/CS363Lab</IISUrl>
+          <OverrideIISAppRootUrl>True</OverrideIISAppRootUrl>
+          <IISAppRootUrl>http://localhost/CS363Lab/</IISAppRootUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

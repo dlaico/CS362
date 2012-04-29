@@ -4,7 +4,7 @@
     ViewBag.Title = Model.store.StoreName + " - Store Page";
 }
 
-<h2>Welcome to Your Store</h2>
+<h2>Welcome to Your Store</h2> @Html.ActionLink("Edit Your Store Information Here", "Update/" + Model .store.StoreID, "Stores")
 
 <h3>Here you can view/edit your products as well as your store information.</h3>
 
@@ -18,5 +18,5 @@
 
 <p>If you'd like to add another product @Html.ActionLink("Click Here", "AddProducts/" + Model.store.StoreID.ToString(), "Stores")</p>
 
-<h1>@Model.boat</h1>
+
 

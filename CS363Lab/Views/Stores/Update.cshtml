@@ -1,0 +1,42 @@
+﻿@model CS363Lab.Models.Store
+
+@{
+    ViewBag.Title = "Update a Store";
+}
+
+<h2>Create Your Store</h2>
+<p>Please provide us with some information about your store:</p>
+<form action="/Stores/Update" method="post">
+<table>
+    <tr>
+        <td>Store Name</td>
+        <td>@Html.TextBoxFor(x => x.StoreName)</td>
+    </tr>
+    <tr>
+        <td>Store Address</td>
+        <td>@Html.TextBoxFor(x => x.StoreAddress)</td>
+    </tr>
+    <tr>
+        <td>Store City</td>
+        <td>@Html.TextBoxFor(x => x.StoreCity)</td>
+    </tr>
+    <tr>
+        <td>Store State</td>
+        <td>@Html.TextBoxFor(x => x.StoreState)</td>
+    </tr>
+    <tr>
+        <td>Store Zip</td>
+        <td>@Html.TextBoxFor(x => x.StoreZip)</td>
+    </tr>
+    <tr>
+        <td>Store Phone</td>
+        <td>@Html.TextBoxFor(x => x.StorePhone)</td>
+    </tr>
+    <tr>
+        <td>Store Email Address</td>
+        <td>@Html.TextBoxFor(x => x.StoreEmail)</td>
+    </tr>
+</table>
+@Html.HiddenFor(x => x.StoreID)
+<input type="submit" value="Update Store!" />
+</form>
